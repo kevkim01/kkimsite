@@ -1,0 +1,18 @@
+#iconContain {
+  width: 25%;
+  margin:auto;
+}
+#icon {
+  color: white;
+  width: 35px;
+  height: 35px;
+  background: linear-gradient(45deg, #15293d 0%, #0e1e2f 100%);
+  margin: 10px;
+  border-radius: 50%;
+  transition: all .25s ease-in-out;
+  border: 1px solid rgb(16, 34, 54)
+}
+
+#icon:hover {
+  transform: scale(1.5);
+}

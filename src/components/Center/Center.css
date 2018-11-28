@@ -1,0 +1,17 @@
+#center {
+  color: white;
+}
+
+#centerName {
+  font-size: 70px;
+}
+
+#animationContainer {
+  align-items: flex-start;
+}
+
+#underline {
+  border: 1px solid white;
+  width: 100%;
+  margin-bottom: 20px
+}

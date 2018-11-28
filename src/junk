@@ -1,0 +1,134 @@
+.test {
+  width: 100wh;
+  height: 90vh;
+  color: #fff;
+  background: linear-gradient(0deg, #2e5173 , #345474, #3b5c7e, #41658a);
+  background-size: 400% 400%;
+  -webkit-animation: Gradient 20s ease infinite;
+  -moz-animation: Gradient 20s ease infinite;
+  animation: Gradient 20s ease infinite;
+  }
+
+  @-webkit-keyframes Gradient {
+    0% {
+      background-position: 0% 25%
+    }
+    14.3% {
+      background-position: 50% 25%
+    }
+    42.9% {
+      background-position: 75% 50%
+    }
+    57.2% {
+      background-position: 100% 75%
+    }
+    71.5% {
+      background-position: 75% 50%
+    }
+    85.8% {
+      background-position: 50% 25%
+    }
+    100% {
+      background-position: 0% 25%
+    }
+  }
+
+  @-moz-keyframes Gradient {
+    0% {
+      background-position: 0% 25%
+    }
+    14.3% {
+      background-position: 50% 25%
+    }
+    42.9% {
+      background-position: 75% 50%
+    }
+    57.2% {
+      background-position: 100% 75%
+    }
+    71.5% {
+      background-position: 75% 50%
+    }
+    85.8% {
+      background-position: 50% 25%
+    }
+    100% {
+      background-position: 0% 25%
+    }
+  }
+
+  @keyframes Gradient {
+    0% {
+      background-position: 0% 25%
+    }
+    14.3% {
+      background-position: 50% 25%
+    }
+    42.9% {
+      background-position: 75% 50%
+    }
+    57.2% {
+      background-position: 100% 75%
+    }
+    71.5% {
+      background-position: 75% 50%
+    }
+    85.8% {
+      background-position: 50% 25%
+    }
+    100% {
+      background-position: 0% 25%
+    }
+  }
+
+  /* 0% { background-position: 0% 4%}
+  2% { background-position: 8% 4%}
+  4% { background-position: 12% 8%}
+  6% { background-position: 16% 12%}
+  8% { background-position: 20% 16%}
+  10% { background-position: 24% 20%}
+  12% { background-position: 28% 24%}
+  14% { background-position: 32% 28%}
+  16% { background-position: 36% 32%}
+  18% { background-position: 40% 36%}
+  20% { background-position: 44% 40%}
+  22% { background-position: 48% 44%}
+  24% { background-position: 52% 48%}
+  26% { background-position: 56% 52%}
+  28% { background-position: 60% 25%}
+  30% { background-position: 64% 25%}
+  32% { background-position: 68% 25%}
+  34% { background-position: 72% 25%}
+  36% { background-position: 76% 25%}
+  38% { background-position: 80% 25%}
+  40% { background-position: 84% 25%}
+  42% { background-position: 88% 25%}
+  44% { background-position: 92% 25%}
+  46% { background-position: 96% 25%}
+  48% { background-position: 100% 25%}
+  50% { background-position: 100% 25%}
+  52% { background-position: 96% 25%}
+  54% { background-position: 92% 25%}
+  56% { background-position: 88% 25%}
+  58% { background-position: 84% 25%}
+  60% { background-position: 80% 25%}
+  62% { background-position: 76% 25%}
+  64% { background-position: 72% 25%}
+  66% { background-position: 68% 25%}
+  68% { background-position: 64% 25%}
+  70% { background-position: 60% 25%}
+  72% { background-position: 56% 52%}
+  74% { background-position: 52% 48%}
+  76% { background-position: 48% 44%}
+  78% { background-position: 44% 40%}
+  80% { background-position: 40% 36%}
+  82% { background-position: 36% 32%}
+  84% { background-position: 32% 28%}
+  86% { background-position: 28% 24%}
+  88% { background-position: 24% 20%}
+  90% { background-position: 20% 16%}
+  92% { background-position: 16% 12%}
+  94% { background-position: 12% 8%}
+  96% { background-position: 8% 4%}
+  98% { background-position: 0% 4%}
+  100% { background-position: 0% 4%} */
