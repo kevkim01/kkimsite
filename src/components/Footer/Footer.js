@@ -9,26 +9,30 @@ class Footer extends Component {
   }
   render() {
     return (
-      <div className="columns" id="iconContain">
-        <div className="column">
+      <div className="columns" id="socialsRow">
+        <div className="column" id="iconContain">
           <div id="icon">
             <span className="fas fa-at"></span>
           </div>
+          <p id="text1">email me</p>
         </div>
-        <div className="column">
+        <div className="column" id="iconContain">
           <div id="icon">
             <span className="fab fa-linkedin-in"></span>
           </div>
+          <p id="text1">linkedin</p>
         </div>
-        <div className="column">
+        <div className="column" id="iconContain">
           <div id="icon">
             <span className="fab fa-github-alt"></span>
           </div>
+          <p id="text1">github</p>
         </div>
-        <div className="column">
+        <div className="column" id="iconContain">
           <div id="icon">
             <span className="fas fa-file-alt"></span>
           </div>
+          <p id="text1">resume</p>
         </div>
       </div>
     );

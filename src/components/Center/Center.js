@@ -5,7 +5,7 @@ import './Center.css';
 class Center extends Component {
   render() {
     return (
-      <div className ='container' id='center'>
+      <div id='center'>
         <div>
           <h1 id="centerName">kevin kim</h1>
         </div>

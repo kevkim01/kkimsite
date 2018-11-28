@@ -1,18 +1,33 @@
-#iconContain {
-  width: 25%;
-  margin:auto;
-}
-#icon {
-  color: white;
-  width: 35px;
-  height: 35px;
-  background: linear-gradient(45deg, #15293d 0%, #0e1e2f 100%);
-  margin: 10px;
-  border-radius: 50%;
-  transition: all .25s ease-in-out;
-  border: 1px solid rgb(16, 34, 54)
+#socialsRow {
+  width: 40%;
+  height: auto;
+  margin: auto;
+  text-align: center;
 }
 
-#icon:hover {
+#icon {
+  width: 35px;
+  height: 35px;
+  display: inline-block;
+  margin-bottom: 12%;
+  background: linear-gradient(45deg, #15293d 0%, #1d344d 100%);
+  border-radius: 50%;
+  color:rgb(169, 191, 203);
+  transition: all .2s ease-in-out;
+}
+
+#text1{
+  opacity: 0;
+  transition: all .2s ease-in-out;
+  color: white;
+}
+
+#icon:hover{
   transform: scale(1.5);
+  background: linear-gradient(45deg, #15293d 0%, #0e1e2f 100%);
+  color: white;
+}
+
+#icon:hover + #text1{
+  opacity: 1;
 }
