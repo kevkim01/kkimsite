@@ -1,19 +1,31 @@
 #socialsRow {
-  width: 40%;
+  width: 35.5vw;
   height: auto;
   margin: auto;
   text-align: center;
 }
 
 #icon {
-  width: 35px;
-  height: 35px;
+  width: 4vw;
+  height: 4vw;
   display: inline-block;
-  margin-bottom: 12%;
+  margin-bottom: 2vh;
   background: linear-gradient(45deg, #15293d 0%, #1d344d 100%);
   border-radius: 50%;
   color:rgb(169, 191, 203);
   transition: all .2s ease-in-out;
+  position: relative;
+  line-height: 0;
+}
+
+#image {
+  font-size: 1.5vw;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
 }
 
 #text1{

@@ -1,7 +1,14 @@
 .typewrite{
-  border-right: 5px solid rgb(178, 202, 224);
+  border-right: .3vw solid rgb(178, 202, 224);
   animation: blink-caret .75s step-end infinite;
   display: inline-block;
+  padding-right: 5px;
+}
+
+.wrap {
+  color: white;
+  font-size: 2.5vw;
+  margin-bottom: 10vh;
 }
 
 @keyframes blink-caret {

@@ -12,25 +12,25 @@ class Footer extends Component {
       <div className="columns" id="socialsRow">
         <div className="column" id="iconContain">
           <div id="icon">
-            <span className="fas fa-at"></span>
+            <span className="fas fa-at" id="image"></span>
           </div>
           <p id="text1">email me</p>
         </div>
         <div className="column" id="iconContain">
           <div id="icon">
-            <span className="fab fa-linkedin-in"></span>
+            <span className="fab fa-linkedin-in" id="image"></span>
           </div>
           <p id="text1">linkedin</p>
         </div>
         <div className="column" id="iconContain">
           <div id="icon">
-            <span className="fab fa-github-alt"></span>
+            <span className="fab fa-github-alt" id="image"></span>
           </div>
           <p id="text1">github</p>
         </div>
         <div className="column" id="iconContain">
           <div id="icon">
-            <span className="fas fa-file-alt"></span>
+            <span className="fas fa-file-alt" id="image"></span>
           </div>
           <p id="text1">resume</p>
         </div>

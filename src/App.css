@@ -1,18 +1,18 @@
 .App {
-  text-align: center;
   height: 100vh;
-  padding-top: 25vh;
-  padding-bottom: 25vh;
+  padding-top: 20vh;
+  padding-bottom: 20vh;
   width: 100%;
 }
 
 #mainContainer {
-  height: 50vh;
+  height: 60vh;
   margin: auto;
 }
 
 #centerContainer {
-  height: 75%;
+  height: 65%;
+  margin-bottom: 5%;
 }
 
 #footContainer {

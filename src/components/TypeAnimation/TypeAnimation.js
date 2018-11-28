@@ -51,7 +51,8 @@ class TypeAnimation extends Component{
   constructor(){
     super()
     this.state = {
-      messageList: '[ "test 1", "test 2", "test 3", "test 4", "test 5"]'
+      messageList:
+      '[ "fact about me", "interesting thing about me", "i like dogs", "ramen is dank", "another interesting thing"]'
     }
   }
 

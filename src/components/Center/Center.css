@@ -1,17 +1,24 @@
 #center {
-  color: white;
+  width: 60%;
+  height: 100%;
+  margin: auto;
+}
+
+#animationContainer{
+  height: 6.5vh;
 }
 
 #centerName {
-  font-size: 70px;
-}
+  color:rgb(169, 191, 203);
+  font-size: 13vw;
+  font-family: 'Exo';
 
-#animationContainer {
-  align-items: flex-start;
 }
 
 #underline {
-  border: 1px solid white;
+  border: 1px solid rgb(164, 194, 221);
+  background: rgb(178, 202, 224);
+  border-radius: 3px;
   width: 100%;
-  margin-bottom: 20px
+  height: 5px;
 }

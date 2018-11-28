@@ -11,8 +11,8 @@ class Center extends Component {
         </div>
         <div id='animationContainer'>
           <TypeAnimation/>
-          <div id='underline'></div>
         </div>
+        <div id='underline'></div>
       </div>
     );
   }
